@@ -1,5 +1,7 @@
-name: deploy on push
-on: [push]
+name: deploy on prod push
+on: 
+  push:
+    branch: prod
 
 jobs:
   deploy-app:
